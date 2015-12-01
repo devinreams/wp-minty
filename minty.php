@@ -5,7 +5,7 @@ Plugin URI: https://github.com/devinreams/wp-minty
 Description: Lightweight plugin to enqueue <a href="http://haveamint.com">Mint</a> analytics tracking into your site's header and add Bird Feeder tracking to your feeds.
 Author: devinreams
 Author URI: http://devin.reams.me/
-Version: 1.01
+Version: 1.0.1
 License: MIT
 */
 

@@ -3,7 +3,7 @@ Contributors: devinreams
 Tags: mint, haveamint, analytics, feed, tracking
 Requires at least: 3.1.2
 Tested up to: 4.4
-Stable tag: 1.01
+Stable tag: 1.0.1
 
 Add Mint analytics tracking into your site's header and add Bird Feeder tracking to your feeds.
 
