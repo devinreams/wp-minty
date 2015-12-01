@@ -1,10 +1,9 @@
 === Plugin Name ===
 Contributors: devinreams
-Donate link: http://devin.reams.me/projects/donate/
 Tags: mint, haveamint, analytics, feed, tracking
 Requires at least: 3.1.2
-Tested up to: 3.2
-Stable tag: 1.0
+Tested up to: 4.4
+Stable tag: 1.01
 
 Add Mint analytics tracking into your site's header and add Bird Feeder tracking to your feeds.
 
@@ -23,6 +22,11 @@ Lightweight plugin to:
 1. Load up one of your feeds, make sure Bird Feeder caught it
 
 == Changelog ==
+
+= 1.01 =
+
+* Tested and confirmed OK up to WordPress 4.4
+* Fixed typo for license (it's MIT)
 
 = 1.0 =
 

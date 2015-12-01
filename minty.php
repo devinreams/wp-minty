@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Minty
-Plugin URI: http://devin.reams.me/projects/
+Plugin URI: https://github.com/devinreams/wp-minty
 Description: Lightweight plugin to enqueue <a href="http://haveamint.com">Mint</a> analytics tracking into your site's header and add Bird Feeder tracking to your feeds.
 Author: devinreams
 Author URI: http://devin.reams.me/
-Version: 1.0
-License: GPL3
-*/ 
+Version: 1.01
+License: MIT
+*/
 
 /**
  * Add the Bird Feeder type declaration to the head of each feed
@@ -34,7 +34,7 @@ function minty_birdfeeder_seed($info) {
 	return $BirdFeeder->seed(get_the_title_rss(), get_permalink(), true);
 }
 add_filter('the_permalink_rss', 'minty_birdfeeder_seed', 1000);
-	
+
 /**
  * Enqueue the Mint JavaScript into each page except admin pages
  */
